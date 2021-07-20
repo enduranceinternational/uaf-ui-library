@@ -1352,6 +1352,11 @@
 "@eigi/bluebird-fastdomain@file:packages/bluebird-fastdomain":
   version "1.3.5"
 
+"@eigi/bluebird-hostgator@file:packages/bluebird-hostgator":
+  version "1.3.5"
+  dependencies:
+    "@hostgator/design-system-tokens" "^1.8.1"
+
 "@eigi/bluebird-hostmonster@file:packages/bluebird-hostmonster":
   version "1.3.5"
 
@@ -1362,7 +1367,7 @@
   version "1.3.4"
 
 "@eigi/bluebird@file:packages/bluebird":
-  version "1.4.0"
+  version "1.6.0"
   dependencies:
     bootstrap-sass "^3.4.0"
 
@@ -1571,6 +1576,11 @@
   integrity sha512-gZDI/eXOIk8kP2PkUKjWu9RW8GGVd2Hkgjxyr/S7Z+JF+0mr7bAlbw+DkTRxnD580o8Kqxlnba9wvqp5aOHBww==
   dependencies:
     "@hapi/hoek" "6.x.x"
+
+"@hostgator/design-system-tokens@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@hostgator/design-system-tokens/-/design-system-tokens-1.8.1.tgz#99448692dd3254a94933102e0df2598372a61c11"
+  integrity sha512-rGcXg4hrLIuHJmqy5hIOXyua7gbb2lebfKyc3Kx1+QeREBogMLwbNY1xp154I6MrSpY4DohspGhC/K3+I8cL5A==
 
 "@hutson/parse-repository-url@^3.0.0":
   version "3.0.2"
